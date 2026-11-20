@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTTP и REST API — практика</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <main class="container">
+    <p class="eyebrow">СЕТЕВОЕ ПРОГРАММИРОВАНИЕ · МОДУЛЬ 2</p>
+    <h1>HTTP и REST API</h1>
+    <p class="lead">Это стартовая страница учебного статического сервера на Python.</p>
+    <section class="panel">
+      <h2>Проверка сервера</h2>
+      <p>Если эта страница открылась, сервер успешно обработал GET-запрос и вернул статус <code>200 OK</code>.</p>
+      <p>Файл стилей загружается отдельно. Это помогает проверить правильный <code>Content-Type</code> для CSS.</p>
+      <a href="/about.txt">Открыть текстовый файл</a>
+    </section>
+    <section class="panel">
+      <h2>Что реализовано</h2>
+      <ul>
+        <li><strong>200 OK</strong> — файл найден и отправлен.</li>
+        <li><strong>404 Not Found</strong> — файл не найден.</li>
+        <li><strong>405 Method Not Allowed</strong> — метод не поддерживается.</li>
+      </ul>
+    </section>
+    <p class="note">Учебный пример. Не используйте этот сервер как публичный production-сервер.</p>
+  </main>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
